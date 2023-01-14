@@ -1,0 +1,128 @@
+body{
+  font-family: roboto;
+  text-align: center;
+}
+.container{
+  width: 30%;
+}
+.login:hover{
+  border-bottom: 5px solid violet;
+  cursor: pointer;
+}
+.form{
+  justify-content: space-between;
+}
+h2{
+  width: 50%;
+}
+.form-control{
+  width: 80%;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+#btn{
+  background-color: #E70B89;
+  color: white;
+  font-size: 20px;
+}
+.forgot{
+  color: #E70B89;
+  cursor: pointer;
+}
+.img{
+  /* justify-content: space-between; */
+  cursor: pointer;
+  margin: 15px;
+  display: grid;
+  place-items: center;
+}
+
+
+/* CSS QUERIES */
+
+
+@media (min-width: 320px) and (max-width: 425px) {
+
+  .container{
+    width: 100%;
+  }
+  .login:hover{
+    border-bottom: 5px solid violet;
+    cursor: pointer;
+  }
+  .form{
+    justify-content: space-between;
+  }
+  h2{
+    width: 50%;
+  }
+  .form-control{
+    width: 80%;
+    /* margin-left: 3rem; */
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+  #btn{
+    background-color: #E70B89;
+    color: white;
+    font-size: 20px;
+  }
+  .forgot{
+    color: #E70B89;
+    cursor: pointer;
+  }
+  .img{
+    /* justify-content: space-between; */
+    cursor: pointer;
+    margin: 15px;
+    display: grid;
+    place-items: center;
+  }
+  
+
+ }
+@media (min-width: 426px) and (max-width: 768px) {
+
+  .container{
+    width: 100%;
+  }
+  .login:hover{
+    border-bottom: 5px solid violet;
+    cursor: pointer;
+  }
+  .form{
+    justify-content: space-between;
+  }
+  h2{
+    width: 50%;
+  }
+  .form-control{
+    width: 90%;
+    /* margin-left: 3rem; */
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+  #btn{
+    background-color: #E70B89;
+    color: white;
+    font-size: 20px;
+  }
+  .forgot{
+    color: #E70B89;
+    cursor: pointer;
+  }
+  .img{
+    /* justify-content: space-between; */
+    cursor: pointer;
+    margin: 15px;
+    display: grid;
+    place-items: center;
+  }
+  
+
+ }
+
